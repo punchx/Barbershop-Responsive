@@ -1,3 +1,19 @@
+@font-face {
+  font-weight: normal;
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  src: url("fonts/pt_sans-narrow-regular.woff2") format("woff2"),
+    url("fonts/pt_sans-narrow-regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  src: url("fonts/pt_sans-narrow-bold.woff2") format("woff2"),
+    url("fonts/pt_sans-narrow-bold.woff") format("woff");
+}
+
 body {
   min-width: 230px;
   margin: 0;
@@ -13,6 +29,18 @@ body {
 }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
 }
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+

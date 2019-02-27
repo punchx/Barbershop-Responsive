@@ -12,24 +12,32 @@
     <a href="#" class="page-header__logo">
       <img class="page-header__logo-image" src="img/main-logo.svg" width="226" height="30" alt="Барбершоп «Бородинский»">
     </a>
-    <nav class="main-nav">
-      <!-- <button class="main-nav__toggle" type="button">Открыть меню</button> -->
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
-          <!-- <li class="site-list__item site-list__item--active"><a>Главная</a></li>
+          <li class="site-list__item site-list__item--active"><a>Главная</a></li>
           <li class="site-list__item"><a href="#">Наши работы</a></li>
           <li class="site-list__item"><a href="#">Записаться</a></li>
           <li class="site-list__item"><a href="#">Контакты</a></li>
-          <li class="site-list__item"><a href="#">HTML Academy</a></li> -->
+          <li class="site-list__item"><a href="#">HTML Academy</a></li>
         </ul>
         <ul class="main-nav__list user-list">
-          <!-- <li class="user-list__item"><a class="user-list__login" href="#">Войти</a></li> -->
+          <li class="user-list__item">
+            <a class="user-list__login" href="#">
+              <svg version="1.1" class="user-list__login-icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <polygon class="st0" points="0,7 7,7 7,4.1 11,8 7,11.9 7,9.1 0,9 "/>
+                <polygon class="st0" points="7,0 7,2 14,2 14,14 7,14 7,16 16,16 16,0 "/>
+              </svg>
+              Войти
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
   </header>
   <main class="page-main">
-    <!-- <h1 class="visually-hidden">Барбершоп «Бородинский» - Истинно мужская классика</h1> -->
+    <!-- <h1 class="visually-hidden">Барбершоп «Бородинский» - Истинно мужская классика</h1>
     <section class="stats">
       <header class="stats__header">
         <!-- <h2 class="visually-hidden">Статистика Барбершопа</h2> -->
