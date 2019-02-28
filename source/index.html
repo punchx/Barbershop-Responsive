@@ -10,7 +10,11 @@
 <body>
   <header class="page-header">
     <a href="#" class="page-header__logo">
-      <img class="page-header__logo-image" src="img/main-logo.svg" width="226" height="30" alt="Барбершоп «Бородинский»">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/main-logo-desktop.svg">
+        <source media="(min-width: 768px)" srcset="img/main-logo-tablet.svg">
+        <img class="page-header__logo-image" src="img/main-logo.svg" width="226" height="30" alt="Барбершоп «Бородинский»">
+      </picture>
     </a>
     <nav class="main-nav main-nav--closed main-nav--nojs">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
